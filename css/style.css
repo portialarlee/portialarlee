@@ -1,9 +1,6 @@
 body {
-	margin: auto;
-}
-
-.wrapper {
-	text-align: center;
+	margin: 0;
+	padding: 0;
 }
 
 .banner {
@@ -14,10 +11,20 @@ body {
 h1 {
 	font-family: 'Tauri', sans-serif;
 	margin: auto;
+	text-align: center;
 	margin-top: 2rem;
 }
 
 h2 {
 	font-family: 'Average Sans', sans-serif;
-	margin: auto;
+	text-align: center;
+	margin: 1em;
+}
+
+p {
+	font-family: 'Average Sans', sans-serif;
+	font-size: 1.5em;
+	min-width: 33%;
+	max-width: 100%;
+	margin: 1em;
 }
